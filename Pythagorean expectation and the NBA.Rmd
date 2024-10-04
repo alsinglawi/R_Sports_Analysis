@@ -1,0 +1,30 @@
+---
+title: "Pythagorean expectation and the NBA"
+author: "Ashraf Alsinglawi"
+date: "2024-10-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Pythagorean Expectation and the NBA
+The NBA is the most popular basketball league in the world, and consists of 30 teams playing
+an 82 game regular season followed by playoffs to determine the champion. In terms of scale,
+this data looks much more like MLB data than the IPL data we just looked at.
+Basketball resembles cricket in one way - the scores are much higher than in baseball. However,
+the points difference between winning and losing teams tend to be relatively small.
+
+Let’s see what we find this time. We follow the same procedure
+
+## Load the packages
+```{r Loading packages, include=FALSE}
+options(warn = -1)
+library("readxl",quietly = TRUE)
+library("tidyverse",quietly = TRUE)
+library("dplyr",quietly = TRUE)
+library("ggplot2",quietly = TRUE)
+```
+
+
