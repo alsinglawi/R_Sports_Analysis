@@ -27,4 +27,19 @@ library("dplyr",quietly = TRUE)
 library("ggplot2",quietly = TRUE)
 ```
 
+## Importing the data
+which comes in the form of a list of games played in the 2018 season.
+```{r Read Data, include=FALSE}
+NBA = read.csv('NBA_Games.csv')
+```
+
+Check data head
+```{r data head, echo=FALSE}
+head(NBA)
+```
+
+Check dtat tail
+```{r data tail, echo=FALSE}
+tail(NBA)
+```
 
